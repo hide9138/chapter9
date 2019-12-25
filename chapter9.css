@@ -18,7 +18,6 @@ section{
 	width: 300px;
 }
 img{
-	float: left;
 	width: 280px;
 }
 .content{
@@ -31,9 +30,21 @@ img{
 .box2{
 	margin: 0 30px;
 }
+main::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 @media screen and (max-width: 768px){
+	main{
+		width: 90%;
+	}
 	.box1,.box2,.box3{
+		width: 90%;
 		float: none;
 		margin: 0 auto;
+	}
+	.box2{
+		margin: 30px auto;
 	}
 }
