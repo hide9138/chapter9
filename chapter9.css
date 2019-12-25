@@ -34,7 +34,6 @@ img{
 @media screen and (max-width: 768px){
 	.box1,.box2,.box3{
 		float: none;
+		margin: 0 auto;
 	}
-	.box2{
-		margin: 0;
 }
