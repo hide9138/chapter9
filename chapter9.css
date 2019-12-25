@@ -36,11 +36,16 @@ main::after {
   clear: both;
 }
 @media screen and (max-width: 768px){
+	img{
+		margin: 10px;
+		width: auto;
+		background-size: cover;
+	}
 	main{
 		width: 90%;
 	}
 	.box1,.box2,.box3{
-		width: 90%;
+		width: 100%;
 		float: none;
 		margin: 0 auto;
 	}
