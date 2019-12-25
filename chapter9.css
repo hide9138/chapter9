@@ -38,8 +38,8 @@ main::after {
 }
 @media screen and (max-width: 768px){
 	img{
-		background-size: cover;
 		width: 100%;
+		background-size: cover;
 	}
 	main{
 		width: 90%;
@@ -52,4 +52,7 @@ main::after {
 	.box2{
 		margin: 20px auto;
 	}
+	.content{
+		width: auto;
+		margin: 10px;
 }
