@@ -21,6 +21,7 @@ img{
 	width: 280px;
 }
 .content{
+	width: 100%;
 	margin: 10px;
 }
 .box1,.box2,.box3{
@@ -37,9 +38,8 @@ main::after {
 }
 @media screen and (max-width: 768px){
 	img{
-		margin: 10px;
-		width: auto;
 		background-size: cover;
+		width: 100%;
 	}
 	main{
 		width: 90%;
